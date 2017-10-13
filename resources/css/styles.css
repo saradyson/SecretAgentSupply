@@ -140,7 +140,7 @@ footer {
 
 /*---MEDIA QUERIES START---*/
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 704px) {
     .product {
         width: 47%;
     }
