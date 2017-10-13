@@ -71,6 +71,11 @@ nav ul {
     display: flex;
 }
 
+.mobile-nav {
+    display: none;
+    color: white;
+}
+
 .shop, .business-info {
     margin: 3em 0px 0px;
     display: flex;
@@ -119,6 +124,8 @@ h3 {
 
 /*---MAIN CONTENT END---*/
 
+/*---FOOTER START---*/
+
 footer {
     background-color: black;
     color: white;
@@ -129,7 +136,56 @@ footer {
     text-align: left;
 }
 
+/*---FOOTER END---*/
 
+/*---MEDIA QUERIES START---*/
+
+@media only screen and (max-width: 1024px) {
+    .product {
+        width: 47%;
+    }
+    
+    html {
+        font-size: 16px;
+    }
+    
+    .mobile-nav {
+        display: block;
+        text-align: center;
+    }
+    
+    nav ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    
+    .banner {
+        height: 15rem;
+    }
+    
+    html {
+        font-size: 0.77rem;
+    }
+    
+    .caption h1 {
+    font-size: 1rem;
+    line-height: 2.25rem;
+    }
+    
+    .product {
+        width: 90%;
+    }
+    
+    .copyright {
+    text-align: center;
+    }
+}
+
+
+
+/*---MEDIA QUERIES END---*/
 
 
 
